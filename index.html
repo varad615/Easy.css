@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home |</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="home">
-        <div class="name">
-            <h1>Easy.css</h1>
-        </div>
-        <div class="desc">
-            A simple and small css framework with responsive components.
-        </div>
-        <a href="#"><button class="btn">Get started</button></a>
+      <div class="name">
+        <h1>Easy.css</h1>
+      </div>
+      <div class="desc">
+        A simple and small css framework with responsive components.
+      </div>
+      <a href="#"><button class="btn">Get started</button></a>
+      <div class="version">Version: 1.0.0 alpha</div>
+      <div class="footer">
+        <p>&copy; Easy.css</p>
+      </div>
     </div>
-</body>
+    <div class="fab">
+        <img onclick="warning()" src="info.svg" alt="">
+    </div>
+    <script>
+        function warning() {
+            alert("This is a beta version of Easy.css. It is not recommended to use it in production.");
+        }
+    </script>
+  </body>
 </html>
