@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #0066ff;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0%;
+  text-align: center;
+  font-family: sans-serif;
+}
+.docs {
+  height: 100vh;
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.docs .content {
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+}
+.docs .content h2 {
+  font-size: 54px;
+}
+.docs .content h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 100;
+}
+.docs .content .input-box {
+  background-color: #fff;
+  width: min-content;
+  text-align: left;
+  display: inline-table;
+  padding: 5px;
+  border-radius: 12px;
+  width: 40%;
+}
+.docs .content .input-box input {
+  width: 80%;
+  border: none;
+  font-size: x-large;
+  padding: 12px;
+}
+.docs .content .input-box button {
+  background-color: #0066ff;
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 12px;
+  align-items: flex-end;
+  margin-left: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.docs .content .input-box input:focus {
+  outline: none;
+}
+.docs .btn {
+  background-color: #fff;
+  border: none;
+  color: var(--primary-color);
+  font-weight: 300;
+
+  font-size: x-large;
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.components {
+  background-color: #fff;
+}
+.components .content h2 {
+  font-size: 54px;
+}
+.com-list {
+  padding: 2rem;
+}
+.docs .content .card {
+  background-color: #ddebff;
+  width: auto;
+  border-radius: 12px;
+  text-align: left;
+  display: inline-table;
+}
+code{
+    color: #0066ff;
+    font-size: x-large;
+}
+.card {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  border-radius: 12px;
+}
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+.card button {
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: x-large;
+  border-radius: 12px;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* link colours */
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* top left fab */
+.fab {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background-color: #fff;
+  font-size: x-large;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  border: #0066ff solid 1px;
+}

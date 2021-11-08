@@ -1,60 +1,178 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-body {
-  margin: 0%;
-  text-align: center;
-  font-family: "Robot", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-.home {
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  margin: 0%;
+}
+.container {
+  width: 100%;
   height: 100vh;
 }
-.name {
-  color: #000;
-  font-weight: bold;
-  font-size: 55px;
+.p1 {
+  background-image: url("bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.p1 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.p1 .content {
   padding-top: 5%;
 }
-.desc {
+.p2 .content {
+  padding-top: 5%;
+}
+.p1 .content h2 {
+  font-size: 54px;
+}
+.p1 .content h3 {
   font-size: 30px;
+  color: #707070;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+.content p {
+  font-size: 20px;
+  color: #b7b7b7;
+  font-weight: 100;
+}
+.content .head {
+  text-align: center;
+}
+.p2 {
+  background-color: #0066ff;
+  color: #fff;
+}
+/* p2 content */
+.p2 h2 {
+  font-size: 54px;
+}
+
+.p2 h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+.p2 .card h2 {
+  font-size: 20px;
+}
+.p2 .card h3 {
+  font-size: 20px;
+  color: #707070;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+.features {
+  padding: 5%;
+}
+.card {
+  background-color: #fff;
   color: #000;
-  padding-top: 2%;
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  border-radius: 12px;
 }
-
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
 .btn {
-  border-radius: 10px;
+  background-color: #0066ff;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
   border: none;
-  padding: 10px 20px 10px 20px;
-  font: 700 1rem "Roboto", sans-serif;
-  background-color: #2934d0;
-  color: #fff;
-  text-transform: uppercase;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.outline {
+  background-color: #fff;
+  color: #0066ff;
+  padding: 1rem;
+  border-radius: 12px;
+  border: none;
+  border: solid 3px #0066ff;
+  font-size: 20px;
+  width: 200px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.installation {
+  padding: 5%;
+}
+.installation h3 {
   font-size: 30px;
-  margin-top: 5%;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+.installation p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+.installation .card {
+  background-color: #fff;
+  color: #0066ff;
+  font-size: 20px;
+  padding: 12px;
+  margin-top: 12px;
+  height: auto;
+  text-align: left;
+  border-radius: 12px;
+}
+.installation .card input {
+  font-size: 20px;
+  color: #0066ff;
+  font-weight: 100;
+  border: none;
+  width: 97%;
+}
+.installation .card button {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 100;
+  cursor: pointer;
+}
+.installation .btn {
+  background-color: #fff;
+  color: #0066ff;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #2934d0;
-  color: #fff;
-  text-align: center;
-  padding-top: 10px;
-}
-.version {
-  font-size: 15px;
-  margin-top: 1%;
-}
 
-.fab{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 5px;
-  border-radius: 50%;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-}

@@ -1,36 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
-    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
-    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home |</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo/favicon.svg" type="image/x-icon">
+    <script
+      src="https://kit.fontawesome.com/d5cf428d79.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="home">
-      <div class="name">
-        <h1>Easy.css</h1>
-      </div>
-      <div class="desc">
-        A simple and small css framework with responsive components.
-      </div>
-      <a href="#"><button class="btn">Get started</button></a>
-      <div class="version">Version: 1.0.0 alpha</div>
-      <div class="footer">
-        <p>&copy; Easy.css</p>
+    <div class="container p1">
+      <div class="content">
+        <img src="logo/logo.svg" alt="easy.css">
+        <h2>Easy.css</h2>
+        <h3>A simple CSS framework for web developers.</h3>
+        <p>version: 0.1.0 alpha</p>
+        <br />
+        <a href="docs/docs.html"><button class="btn">Getting Started</button></a>
+        <br />
+        <br />
+        <a href="#installation"
+          ><button class="outline">Installation</button></a
+        >
       </div>
     </div>
-    <div class="fab">
-        <img onclick="warning()" src="info.svg" alt="">
+    <div class="p2">
+      <div class="content">
+        <h2 class="head" id="features">Features</h2>
+        <div class="features">
+          <div class="cards">
+            <div class="card">
+              <img src="img/open-source.png" alt="" />
+              <br />
+              <h2>Open Source</h2>
+              <h3>Easy.css is open source and available on GitHub.</h3>
+            </div>
+            <div class="card">
+              <img src="img/modular.png" alt="" />
+              <br />
+              <h2>Modular</h2>
+              <h3>Easy.css is modular and can be use however you want.</h3>
+            </div>
+            <div class="card">
+              <img src="img/css.png" alt="" />
+              <h2>Modern CSS</h2>
+              <h3>Easy.css is built on the latest CSS standards.</h3>
+            </div>
+          </div>
+        </div>
+        <div id="installation" class="installation">
+          <h2 class="head" id="installation">Installation</h2>
+          <p>Installation of Easy.css is much easier</p>
+          <br />
+          <h3>Just add the following CDN to your HTML head tag</h3>
+          <br />
+          <div class="card">
+            cdn link 
+           <!-- <button onclick="copy()"><i class="fas fa-copy"></i></button></div> -->
+          <br />
+        </div>
+      </div>
     </div>
-    <script>
-        function warning() {
-            alert("This is a beta version of Easy.css. It is not recommended to use it in production.");
-        }
-    </script>
   </body>
 </html>
