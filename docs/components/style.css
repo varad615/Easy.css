@@ -22,25 +22,34 @@
   cursor: pointer;
   border: #0066ff solid 1px;
 }
-.fab{
-    position: fixed;
-    top: 1rem;
-    padding: 5px;
-    left: 1rem;
-    font-family: sans-serif;
-    background-color: #bed8ff;
-    font-size: 16px;
-    border-radius: 6px;
-    width:auto;
-    height:auto;
-    color: #0066ff;
-    text-align: center;
+.fab {
+  position: fixed;
+  top: 1rem;
+  padding: 5px;
+  left: 1rem;
+  font-family: sans-serif;
+  background-color: #bed8ff;
+  font-size: 16px;
+  border-radius: 6px;
+  width: auto;
+  height: auto;
+  color: #0066ff;
+  text-align: center;
 }
 .exp-code {
   background-color: #e1edff;
   border-radius: 12px;
   padding: 1rem;
   margin-top: 12px;
+}
+code {
+  font-size: 14px;
+}
+code span {
+  color: #0066ff;
+}
+code em{
+  color: red;
 }
 body {
   margin: 0%;
