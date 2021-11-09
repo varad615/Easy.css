@@ -81,6 +81,14 @@ body {
   font-size: 30px;
   margin: 0;
 }
+.details h3{
+  font-size: 24px;
+  margin: 0;
+}
+hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .details p {
   font-size: 16px;
   padding: 12px;
@@ -91,3 +99,27 @@ body {
   border-radius: 12px;
 }
 /* components */
+/* align button in center */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-group .btn {
+  margin: 0;
+  background-color: var(--btn-primary-bg);
+  color: #fff;
+}
+.btn-group .btn:first-child {
+  margin-right: 0;
+}
+.btn-group .btn:last-child {
+  margin-left: 0;
+}
+.btn-group .btn:not(:first-child):not(:last-child) {
+  margin-left: 0;
+  margin-right: 0;
+}
+.btn-group .btn:not(:first-child):not(:last-child):not(:only-child) {
+  border-radius: 0;
+}

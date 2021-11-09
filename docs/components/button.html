@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Button | Easy.css</title>
+    <link rel="shortcut icon" href="../../logo/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/d5cf428d79.js"
@@ -20,6 +21,7 @@
       <p>Buttons are usually used to trigger an action.</p>
     </div>
     <div class="details">
+      <!--Button colors-->
       <h2>Example:</h2>
       <p>
         Easy.css provides several several button styles, each with a different
@@ -51,6 +53,144 @@
           </code>
         </div>
       </div>
+      <!--Outline Button-->
+      <hr />
+      <h3>Outline Button:</h3>
+      <p>
+        Outline Button is a button with a border with no background color.
+        Background color is transparent unless u hover over the button. They are
+        similar to the buttons in the previous example.
+      </p>
+      <div class="example">
+        <button class="btn outline-primary">Outline Button Primary</button>
+        <button class="btn outline-secondary">Outline Button Secondary</button>
+        <button class="btn outline-success">Outline Button Success</button>
+        <button class="btn outline-danger">Outline Button Danger</button>
+        <button class="btn outline-warning">Outline Button Warning</button>
+        <button class="btn outline-info">Outline Button Info</button>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;button class=<em>"btn outline-primary"</em>&gt;Outline Button
+            Primary&lt;/button&gt;<br />
+            &lt;button class=<em>"btn outline-secondary"</em>&gt;Outline Button
+            Secondary&lt;/button&gt;<br />
+            &lt;button class=<em>"btn outline-success"</em>&gt;Outline Button
+            Success&lt;/button&gt;<br />
+            &lt;button class=<em>"btn outline-danger"</em>&gt;Outline Button
+            Danger&lt;/button&gt;<br />
+            &lt;button class=<em>"btn outline-warning"</em>&gt;Outline Button
+            Warning&lt;/button&gt;<br />
+            &lt;button class=<em>"btn outline-info"</em>&gt;Outline Button
+            Info&lt;/button&gt;<br />
+          </code>
+        </div>
+      </div>
+
+      <!--Disabled Button-->
+      <hr />
+      <h3>Disabled Button:</h3>
+      <p>
+        Disabled buttons are used to indicate that a button is unavailable. They
+        are most commonly used for secondary actions and are usually used in
+        forms to indicate that a button is disabled when the form has some error
+        or the user did not fill out the form correctly.
+      </p>
+      <div class="example">
+        <button class="btn" disabled>Disabled</button>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;button class=<em>"btn"</em>
+            disabled&gt;Disabled&lt;/button&gt;<br />
+          </code>
+        </div>
+      </div>
+      <!--Button Sizes-->
+      <hr />
+      <h3>Button Size:</h3>
+      <p>
+        Easy.css provides several sizes for buttons. The size of a button
+        indicates how much space it should take up.
+      </p>
+      <div class="example">
+        <button class="btn primary small">Small</button>
+        <button class="btn primary">Default</button>
+        <button class="btn primary large">Large</button>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;button class=<em>"btn primary small"</em
+            >&gt;Small&lt;/button&gt;<br />
+            &lt;button class=<em>"btn primary"</em
+            >&gt;Default&lt;/button&gt;<br />
+            &lt;button class=<em>"btn primary large"</em
+            >&gt;Large&lt;/button&gt;<br />
+          </code>
+        </div>
+      </div>
+      <!--Round Button-->
+      <hr />
+      <h3>Round Button:</h3>
+      <p>
+        Round buttons are used to indicate an action that is important and
+        should be done quickly.
+      </p>
+      <div class="example">
+        <button class="btn round">+</button>
+        <button class="btn round primary">+</button>
+        <button class="btn round secondary">+</button>
+        <button class="btn round success">+</button>
+        <button class="btn round danger">+</button>
+        <button class="btn round warning">+</button>
+        <button class="btn round info">+</button>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;button class=<em>"btn round"</em>&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round primary"</em
+            >&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round secondary"</em
+            >&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round success"</em
+            >&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round danger"</em
+            >&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round warning"</em
+            >&gt;+&lt;/button&gt;<br />
+            &lt;button class=<em>"btn round info"</em>&gt;+&lt;/button&gt;<br />
+          </code>
+        </div>
+      </div>
+      <!--Long Button-->
+      <hr />
+      <h3>Long Button:</h3>
+      <p>
+        A long button is a button that spans the full width of its container. A
+        long button is used for actions that require more space.
+      </p>
+      <div class="example">
+        <div class="long-grid">
+          <button class="btn primary long">Long</button>
+          <button class="btn secondary long">Long Secondary Button</button>
+        </div>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;div class=<em>"long-grid"</em>&gt;<br />
+            &nbsp;&nbsp;&lt;button class=<em>"btn primary long"</em
+            >&gt;Long&lt;/button&gt;<br />
+            &nbsp;&nbsp;&lt;button class=<em>"btn secondary long"</em>&gt;Long
+            Secondary Button&lt;/button&gt;<br />
+            &lt;/div&gt;<br />
+          </code>
+        </div>
+      </div>
+    </div>
+      <div class="btn-group">
+        <button class="btn">Button Group  <i class="fas fa-arrow-right"></i></button>
+      </div>
+      <br />
     </div>
   </body>
 </html>

@@ -11,7 +11,7 @@ body {
   --btn-danger-bg: #ff6666;
   --btn-warning-bg: #ffcc00;
   --btn-info-bg: #00cccc;
-  --btn-desible-bg: #62a1fe;
+  --btn-desible-bg: #c0c0c0;
   --btn-primary-focus-bg: #0066ff;
 }
 
@@ -55,8 +55,13 @@ body {
   color: #000;
 }
 /* long button */
+.btn.long-grid + .long {
+  width: 100%;
+  margin-left: 12px;
+  margin-right: 12px;
+}
 .btn.long {
-  width: 95%;
+  width: 100%;
 }
 /* desible button */
 .btn:disabled {
@@ -152,4 +157,8 @@ body {
 .btn-group .btn:last-child {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
+}
+/* round button */
+.btn.round {
+  border-radius: 50%;
 }
