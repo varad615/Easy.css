@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button | Easy.css</title>
+    <link rel="shortcut icon" href="../../logo/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d5cf428d79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <a href="../docs.html#Components">
+      <div class="fab">Components</div>
+    </a>
+    <div class="heading">
+      <h1>Card</h1>
+      <p>
+        cards provide a flexible and extensible content container with multiple
+        variants and options.
+      </p>
+    </div>
+    <div class="details">
+      <!--Card-->
+      <h2>Example:</h2>
+      <p>
+        Cards are built with as little markup and styles as possible, but still
+        manage to deliver a ton of control and customization.
+
+        <br />
+        <div class="alert info">
+          Add <code>style="width: 12rem"</code> to the card to decide the card width.
+        </div>
+      </p>
+      <div class="example">
+        <div class="card" style="width: 12rem">
+          <div class="card-img">
+            <img src="https://picsum.photos/200/200" />
+          </div>
+          <div class="card-header">Card Header</div>
+          <div class="card-body">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+          <div class="card-footer">
+            <button class="btn primary">Card Button</button>
+          </div>
+        </div>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;div class="card" style="width: 12rem"&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-img"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="https://picsum.photos/200/200"
+            /&gt;<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-header"&gt;Card
+            Header&lt;/div&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-body"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Some quick example text to build on the card
+            title and make up the<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;bulk of the card's content.<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-footer"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="btn primary"&gt;Card
+            Button&lt;/button&gt;<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+        </div>
+      </div>
+      <hr />
+      <!--Card with only body-->
+      <h2>Card with only body:</h2>
+      <p>
+        Such a simple card can be created by adding the
+        <code>.card-body</code> . They are mainly used to display only the
+        content of the card.
+      </p>
+      <div class="example">
+        <div class="card" style="width: 12rem">
+          <div class="card-body">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="card">
+          <div class="card-body">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+        </div>
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;div class="card" style="width: 12rem"&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-body"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Some quick example text to build on the card
+            title and make up the<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;bulk of the card's content.<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            <br />
+            &lt;div class="card"&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-body"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Some quick example text to build on the card
+            title and make up the<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;bulk of the card's content.<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <!--Card with header,title,button-->
+      <h2>Card with header,title,button:</h2>
+      <p>
+        Cards can also be given a header and footer. These are optional, and can
+        be used for things like titles, subtitles, and action links.
+      </p>
+      <div class="example">
+        <div class="card" style="width: 12rem">
+          <div class="card-header">Card Header</div>
+          <div class="card-body">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+          <div class="card-footer">
+            <button class="btn primary">Button 1</button>
+            <button class="btn primary">Button 2</button>
+          </div>
+        </div>
+
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;div class="card" style="width: 12rem"&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-header"&gt;Card
+            Header&lt;/div&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-body"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Some quick example text to build on the card
+            title and make up the<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;bulk of the card's content.<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-footer"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="btn primary"&gt;Button 1
+            &lt;/button&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;button class="btn primary"&gt;Button 2
+            &lt;/button&gt;<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+        </div>
+      </div>
+      <br />
+      <br />
+      <hr />
+      <!--Card with img and description-->
+      <h2>Card with image and body:</h2>
+      <p>
+        Cards can also be used by showing only the image and bpdy. This is done
+        by adding the <code>.card-img</code> and
+        <code>.card-body</code> classes.
+      </p>
+      <div class="example">
+        <div class="card" style="width: 12rem">
+          <img class="card-img-top" src="https://picsum.photos/200/200" />
+          <div class="card-body">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </div>
+        </div>
+
+        <br />
+        <div class="exp-code">
+          <code>
+            &lt;div class="card" style="width: 12rem"&gt;<br />
+            &nbsp;&nbsp;&lt;img class="card-img-top"
+            src="https://picsum.photos/200/200" /&gt;<br />
+            &nbsp;&nbsp;&lt;div class="card-body"&gt;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Some quick example text to build on the card
+            title and make up the<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;bulk of the card's content.<br />
+            &nbsp;&nbsp;&lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+        </div>
+      </div>
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
