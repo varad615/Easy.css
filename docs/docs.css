@@ -79,15 +79,25 @@ body {
 }
 .docs .content .card {
   background-color: #ddebff;
-  width: auto;
+  width: 90%;
   border-radius: 12px;
   text-align: left;
   display: inline-table;
 }
-code{
-    color: #0066ff;
-    font-size: x-large;
+.docs .content .card input {
+  font-size: x-large;
+  color: #0066ff;
+  border: none;
+  background-color: #ddebff;
 }
+.docs .content .card input[type="text"]:focus {
+  font-size: x-large;
+  color: #0066ff;
+  border: none;
+  outline: none;
+  background-color: #ddebff;
+}
+
 .card {
   background-color: var(--primary-color);
   color: #fff;
