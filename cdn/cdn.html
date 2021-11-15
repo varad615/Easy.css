@@ -132,6 +132,16 @@
     <br />
     <br>
     <h1>Alert</h1>
+    <div class="alert">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+        efficitur, nunc eget aliquet aliquet, nunc nisi aliquet nunc, eu
+        consectetur nunc nisi euismod nunc.
+        <hr>
+
+        <a href="#info">this is link</a>
+  
+    </div>
     <div class="alert success">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -140,7 +150,7 @@
         <hr>
 
         <a href="#info">this is link</a>
-      </p>
+  
     </div>
     <div class="alert info">
       <p>
@@ -187,14 +197,86 @@
       <textarea name="address" id="add" cols="30" class="filled" placeholder="Textarea" rows="10"></textarea>
       <br>
       <br>
-      <input type="password" class="outline long" placeholder="Outline Password" />
+      <input type="password" class="outline" placeholder="Outline Password" />
       <input type="password" class="filled" placeholder="Filled Password" />
     </div>
     <br />
     <br />
     <!--All inputes-->
-    <h1>All Inputs</h1>
-    <br>
+    <select class="select-outline">
+      <option selected >Options</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <select class="select-filled">
+      <option selected>Options</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <br />
+    <br />
+    <div class="loader"></div>
+    <div class="loader primary"></div>
+    <div class="loader success"></div>
+    <div class="loader danger"></div>
+    <div class="loader warning"></div>
+    <div class="loader info"></div>
+    <br />
+    <!--Animated progress bar-->
+    <h1>Animated Progress Bar</h1>
+    <div class="progress-bar">
+      <div class="bar" data-size="40"></div>
+    </div>
+
+    <div class="progress-success">
+      <div class="bar" data-size="50">
+        
+      </div>
+
+    </div>
+    <div class="progress-danger">
+      <div class="bar" data-size="60">
+      </div>
+    </div>
+    <div class="progress-warning">
+      <div class="bar" data-size="70">
+      </div>
+    </div>
+    <div class="progress-info">
+      <div class="bar" data-size="80">
+      </div>
+    </div>
+    <br />
+    <br />
+    <h2>Radio Button</h2>
     
+    <!--Radio Buttons-->
+    <label class="radiobtn">One
+      <input type="radio" checked="checked" name="radio">
+      <span class="checkmark"></span>
+    </label>
+    <label class="radiobtn">Two
+      <input type="radio" name="radio">
+      <span class="checkmark"></span>
+    </label>
+
+    <h2>Checkbox</h2>
+    <div class="danger">
+      <label class="checkbox">One
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox">Two
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox">Three
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+      <script src="script.js"></script>
   </body>
 </html>

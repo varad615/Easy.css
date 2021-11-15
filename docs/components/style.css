@@ -1,4 +1,4 @@
-@import url('../../cdn/style.css');
+@import url("../../cdn/style.css");
 :root {
   --primary-color: #0066ff;
   /* btn */
@@ -49,7 +49,7 @@ code {
 code span {
   color: #0066ff;
 }
-code em{
+code em {
   color: red;
 }
 body {
@@ -81,11 +81,11 @@ body {
   font-size: 30px;
   margin: 0;
 }
-.details h3{
+.details h3 {
   font-size: 24px;
   margin: 0;
 }
-hr{
+.details > hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -119,4 +119,3 @@ hr{
   margin-left: 0;
   border-radius: 0 12px 12px 0;
 }
-
